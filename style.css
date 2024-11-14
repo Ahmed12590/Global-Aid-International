@@ -60,7 +60,70 @@ nav a {
 
 
 
+/* home page css  */
 
+.education-section-wrapper {
+    background-color: #f9f9f9;
+    padding: 120px 0;
+  }
+  
+  .education-section {
+    width: 100%; /* Full width within container-fluid */
+    max-width: 1200px; /* Optional: Control max width */
+    display: flex;
+    justify-content: center;
+    margin: 0 auto; /* Center content */
+  }
+  
+  .education-content {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    width: 100%;
+  }
+  
+  .icon-left, .icon-right {
+    flex: 1;
+  }
+  
+  .icon-left img, .icon-right img {
+    width: 80px; /* Adjust icon size if needed */
+    height: auto;
+  }
+  
+  .text-center {
+    flex: 4;
+    padding: 0 20px;
+  }
+  
+  .text-center h2 {
+    color: #1a3e85;
+    font-size: 28px;
+    font-weight: bold;
+    margin-bottom: 15px;
+  }
+  
+  .text-center p {
+    color: #333;
+    font-size: 18px;
+    margin-bottom: 20px;
+  }
+  
+  .donate-button {
+    background-color: #1a3e85;
+    color: #fff;
+    padding: 12px 24px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+  }
+  
+  .donate-button:hover {
+    background-color: #134a8e;
+  }
+  
+  
 
 
 
@@ -150,10 +213,7 @@ nav a {
 
 
 
-/* Donation page css  */
-
-
-
+/* Donate page css  */
 
 .donation-section {
     display: flex;
@@ -192,7 +252,7 @@ nav a {
     font-family: 'Poppins', sans-serif;
 }
 
-.read-more-button {
+.donate-button {
     display: inline-block;
     padding: 10px 20px;
     background-color: #1584DA;
@@ -204,6 +264,24 @@ nav a {
     transition: background-color 0.3s;
 }
 
-.read-more-button:hover {
+.donate-button:hover {
     background-color: #00308F;
 }
+
+/* donate page css end  */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Footer css  */
+
