@@ -75,6 +75,24 @@ nav a {
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 .intro-section {
     display: flex;
     align-items: center;
@@ -100,7 +118,7 @@ nav a {
     font-size: 2.5rem;
     color: #00308F; /* Primary color for the heading */
     margin-bottom: 20px;
-    font-family: 'Poppins', sans-serif;
+    font-family: 'Poppins-SemiBlod', sans-serif;
 }
 
 .intro-content p {
@@ -124,5 +142,68 @@ nav a {
 }
 
 .learn-more-button:hover {
+    background-color: #00308F;
+}
+
+
+
+
+
+
+/* Donation page css  */
+
+
+
+
+.donation-section {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 80px;
+    background-color: #F5F5F5; /* Light background color for section */
+    margin-top: 40px;
+    border-radius: 10px;
+}
+
+.donation-image img {
+    width: 100%;
+    max-width: 400px;
+    height: auto;
+    border-radius: 8px;
+    margin-right: 30px;
+}
+
+.donation-content {
+    max-width: 600px;
+}
+
+.donation-content h2 {
+    font-size: 2rem;
+    color: #00308F; /* Primary color for the heading */
+    margin-bottom: 15px;
+    font-family: 'Poppins-SemiBold', sans-serif;
+}
+
+.donation-content p {
+    font-size: 1rem;
+    color: #555;
+    line-height: 1.6;
+    margin-bottom: 20px;
+    font-family: 'Poppins', sans-serif;
+}
+
+.read-more-button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #1584DA;
+    color: white;
+    font-size: 1rem;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+    transition: background-color 0.3s;
+}
+
+.read-more-button:hover {
     background-color: #00308F;
 }
