@@ -399,4 +399,19 @@ nav a {
     max-width: 80%; /* Scale the image for mobile view */
     height: auto;
   }
+
+  .Campaigns-wrapper {
+    padding: 60px 0; /* Reduce padding for smaller screens */
+  }
+
+  .Campaigns-heading h2 {
+    font-size: 30px; /* Reduce heading size for mobile */
+    line-height: 1.4; /* Adjust line spacing */
+  }
+
+  .Campaigns-heading p {
+    font-size: 16px; /* Reduce paragraph font size */
+    line-height: 1.5; /* Improve readability */
+    padding: 0 10px; /* Add some side padding for smaller screens */
+  }
 }
