@@ -1,182 +1,209 @@
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    font-family: 'Poppins', sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
 }
 
 .header {
-    width: 100%;
-    position: fixed;
-    top: 0;
-    left: 0;
-    z-index: 1000;
+  width: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 1000;
 }
 
 nav {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    padding: 0 50px;
-    height: 75px;
-    background-image: linear-gradient(#00308F, #1584DA);
-    border-bottom-left-radius: 50px;
-    border-bottom-right-radius: 50px;
-    border-top-left-radius: 50px;
-    border-top-right-radius: 50px;
-
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 50px;
+  height: 75px;
+  background-image: linear-gradient(#00308f, #1584da);
+  border-bottom-left-radius: 50px;
+  border-bottom-right-radius: 50px;
+  border-top-left-radius: 50px;
+  border-top-right-radius: 50px;
 }
 
 .logo img {
-    height: 50px;
-    /* Adjust as needed for logo size */
+  height: 50px;
+  /* Adjust as needed for logo size */
 }
 
 nav ul {
-    display: flex;
-    list-style: none;
+  display: flex;
+  list-style: none;
 }
 
 nav li {
-    margin-left: 30px;
+  margin-left: 30px;
 }
 
 nav a {
-    color: white;
-    text-decoration: none;
-    font-size: 16px;
-    font-weight: 600;
-    font-family: 'Poppins-medium', sans-serif;
+  color: white;
+  text-decoration: none;
+  font-size: 16px;
+  font-weight: 600;
+  font-family: "Poppins-medium", sans-serif;
 }
 
 .donate-button {
-    background-color: white;
-    color: #00308F;
-    padding: 8px 20px;
-    border-radius: 20px;
-    font-weight: bold;
+  background-color: white;
+  color: #00308f;
+  padding: 8px 20px;
+  border-radius: 20px;
+  font-weight: bold;
 }
 
 .donate-button:hover {
-    background-color: #00308F;
-    color: white;
-    transition: 0.3s;
+  background-color: #00308f;
+  color: white;
+  transition: 0.3s;
 }
-
-
 
 /* home page css  */
 
 .education-section-wrapper {
-    background-color: #f9f9f9;
-    padding: 120px 0;
-  }
-  
-  .education-section {
-    width: 100%; /* Full width within container-fluid */
-    max-width: 1200px; /* Optional: Control max width */
-    display: flex;
-    justify-content: center;
-    margin: 0 auto; /* Center content */
-  }
-  
-  .education-content {
-    display: flex;
-    align-items: center;
-    text-align: center;
-    width: 100%;
-  }
-  
-  .icon-left, .icon-right {
-    flex: 1;
-  }
-  
-  .icon-left img, .icon-right img {
-    width: 80px; /* Adjust icon size if needed */
-    height: auto;
-  }
-  
-  .text-center {
-    flex: 4;
-    padding: 0 20px;
-  }
-  
-  .text-center h2 {
-    color: #1a3e85;
-    font-size: 50px;
-    font-weight: bold;
-    margin-bottom: 15px;
-  }
-  
-  .text-center p {
-    color: #333;
-    font-size: 18px;
-    margin-bottom: 20px;
-  }
-  
-  .donate-button {
-    background-color: #1a3e85;
-    color: #fff;
-    padding: 12px 24px;
-    border: none;
-    border-radius: 5px;
-    cursor: pointer;
-    font-size: 16px;
-  }
-  
-  .donate-button:hover {
-    background-color: #134a8e;
-  }
-  
-  
-
-
-.home-second-wrapper {
-    background-color: #B0D5F1;
-    padding: 120px 0;
+  background-color: #f9f9f9;
+  padding: 120px 0;
+  width: 100%; /* Ensures the wrapper spans the full width */
 }
 
-.hope-section{
-    display: flex;
-    align-items: center;
-    text-align: center;
-    width: 100%;
+.education-section {
+  width: 100%; /* Ensures the section spans the full width */
+  display: flex;
+  justify-content: space-between; /* Space between icons and center content */
+  align-items: center;
+  margin: 0; /* Remove auto centering for full-width layout */
+}
+
+.education-content {
+  display: flex;
+  align-items: center;
+  justify-content: space-between; /* Distributes content evenly */
+  width: 100%;
+  text-align: center;
+}
+
+.icon-left,
+.icon-right {
+  flex: 1;
+  display: flex;
+  justify-content: center; /* Centers icons horizontally */
+}
+
+.icon-left img,
+.icon-right img {
+  width: 80px; /* Adjust icon size if needed */
+  height: auto;
+}
+
+.text-center {
+  flex: 3; /* Takes up more space than the icons */
+  padding: 0 20px;
+}
+
+.text-center h2 {
+  color: #1a3e85;
+  font-size: 50px;
+  font-weight: bold;
+  margin-bottom: 15px;
+}
+
+.text-center p {
+  color: #333;
+  font-size: 18px;
+  margin-bottom: 20px;
+}
+
+.donate-button {
+  background-color: #1a3e85;
+  color: #fff;
+  padding: 12px 24px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.donate-button:hover {
+  background-color: #134a8e;
+}
+
+.home-second-wrapper {
+  background-color: #b0d5f1;
+  padding: 120px 0;
 }
 
 .hope-section {
-    flex: 4;
-    padding: 0 20px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  width: 100%;
+}
+
+.hope-section {
+  flex: 4;
+  padding: 0 20px;
+}
+
+.hope-heading h2 {
+  color: #1a3e85;
+  font-size: 60px;
+  font-weight: bold;
+  margin-bottom: 15px;
+}
+
+.hope-heading p {
+  color: #333;
+  font-size: 18px;
+  margin-bottom: 20px;
+  padding-right: 150px;
+  padding-left: 150px;
+}
+
+.hope-image {
+  display: flex;
+  justify-content: center; /* Centers horizontally */
+  align-items: center; /* Centers vertically */
+  flex: 1; /* Adjusts the size distribution */
+}
+
+.hope-image img {
+  max-width: 100%;
+  height: auto; /* Ensures the image scales properly */
+}
+
+.Campaigns-wrapper {
+    background-color: #fff;
+    padding: 120px 0;
   }
   
-  .hope-heading h2 {
+  .Campaigns-heading {
+    flex: 4;
+    padding: 0 20px;
+    text-align: center; /* Center-align text */
+  }
+  
+  .Campaigns-heading h2 {
     color: #1a3e85;
     font-size: 60px;
     font-weight: bold;
     margin-bottom: 15px;
-
+    justify-content: center;
+    display: flex;
   }
   
-  .hope-heading p {
+  .Campaigns-heading p {
     color: #333;
     font-size: 18px;
     margin-bottom: 20px;
-  }
-
-.hope-image {
+    justify-content: center;
     display: flex;
-    justify-content: center; /* Centers horizontally */
-    align-items: center; /* Centers vertically */
-    flex: 1; /* Adjusts the size distribution */
-}
-
-.hope-image img {
-    max-width: 100%;
-    height: auto; /* Ensures the image scales properly */
-}
-
-
-
-
+    text-align: center; /* Align text content to center */
+  }
+  
 
 
 
@@ -193,133 +220,183 @@ nav a {
 
 /* gift & Donate page css  */
 
-
 .intro-section {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    padding: 50px;
-    background-color: #B0D5F1; /* Light background color */
-    margin-top: 75px; /* Offset to clear the fixed header */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 50px;
+  background-color: #b0d5f1; /* Light background color */
+  margin-top: 75px; /* Offset to clear the fixed header */
 }
 
 .intro-image img {
-    width: 100%;
-    max-width: 500px;
-    height: auto;
-    border-radius: 8px;
-    margin-right: 30px;
+  width: 100%;
+  max-width: 500px;
+  height: auto;
+  border-radius: 8px;
+  margin-right: 30px;
 }
 
 .intro-content {
-    max-width: 600px;
+  max-width: 600px;
 }
 
 .intro-content h1 {
-    font-size: 2.5rem;
-    color: #00308F; /* Primary color for the heading */
-    margin-bottom: 20px;
-    font-family: 'Poppins-SemiBlod', sans-serif;
+  font-size: 2.5rem;
+  color: #00308f; /* Primary color for the heading */
+  margin-bottom: 20px;
+  font-family: "Poppins-SemiBlod", sans-serif;
 }
 
 .intro-content p {
-    font-size: 1.1rem;
-    color: #555;
-    line-height: 1.6;
-    margin-bottom: 20px;
-    font-family: 'Poppins', sans-serif;
+  font-size: 1.1rem;
+  color: #555;
+  line-height: 1.6;
+  margin-bottom: 20px;
+  font-family: "Poppins", sans-serif;
 }
 
 .learn-more-button {
-    display: inline-block;
-    padding: 10px 20px;
-    background-color: #1584DA;
-    color: white;
-    font-size: 1rem;
-    text-decoration: none;
-    border-radius: 5px;
-    font-weight: bold;
-    transition: background-color 0.3s;
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #1584da;
+  color: white;
+  font-size: 1rem;
+  text-decoration: none;
+  border-radius: 5px;
+  font-weight: bold;
+  transition: background-color 0.3s;
 }
 
 .learn-more-button:hover {
-    background-color: #00308F;
+  background-color: #00308f;
 }
-
-
-
-
-
 
 /* Donate page css  */
 
 .donation-section {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    padding: 80px;
-    background-color: #F5F5F5; /* Light background color for section */
-    margin-top: 40px;
-    border-radius: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 80px;
+  background-color: #f5f5f5; /* Light background color for section */
+  margin-top: 40px;
+  border-radius: 10px;
 }
 
 .donation-image img {
-    width: 100%;
-    max-width: 400px;
-    height: auto;
-    border-radius: 8px;
-    margin-right: 30px;
+  width: 100%;
+  max-width: 400px;
+  height: auto;
+  border-radius: 8px;
+  margin-right: 30px;
 }
 
 .donation-content {
-    max-width: 600px;
+  max-width: 600px;
 }
 
 .donation-content h2 {
-    font-size: 2rem;
-    color: #00308F; /* Primary color for the heading */
-    margin-bottom: 15px;
-    font-family: 'Poppins-SemiBold', sans-serif;
+  font-size: 2rem;
+  color: #00308f; /* Primary color for the heading */
+  margin-bottom: 15px;
+  font-family: "Poppins-SemiBold", sans-serif;
 }
 
 .donation-content p {
-    font-size: 1rem;
-    color: #555;
-    line-height: 1.6;
-    margin-bottom: 20px;
-    font-family: 'Poppins', sans-serif;
+  font-size: 1rem;
+  color: #555;
+  line-height: 1.6;
+  margin-bottom: 20px;
+  font-family: "Poppins", sans-serif;
 }
 
 .donate-button {
-    display: inline-block;
-    padding: 10px 20px;
-    background-color: #1584DA;
-    color: white;
-    font-size: 1rem;
-    text-decoration: none;
-    border-radius: 5px;
-    font-weight: bold;
-    transition: background-color 0.3s;
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #1584da;
+  color: white;
+  font-size: 1rem;
+  text-decoration: none;
+  border-radius: 5px;
+  font-weight: bold;
+  transition: background-color 0.3s;
 }
 
 .donate-button:hover {
-    background-color: #00308F;
+  background-color: #00308f;
 }
 
 /* donate page css end  */
 
-
-
-
-
-
-
-
-
-
-
-
-
-
 /* Footer css  */
 
+/* media querry home page css  */
+
+@media (max-width: 768px) {
+  .education-section {
+    flex-direction: column; /* Stack elements vertically */
+    align-items: center; /* Center elements */
+    gap: 20px; /* Add spacing between items */
+  }
+
+  .icon-left,
+  .icon-right {
+    flex: unset;
+    width: 60px; /* Reduce icon size for mobile */
+  }
+
+  .icon-left img,
+  .icon-right img {
+    width: 100%; /* Ensure images scale properly */
+  }
+
+  .text-center {
+    text-align: center; /* Center-align text */
+    flex: unset; /* Allow it to adjust naturally */
+    padding: 0 10px; /* Reduce padding for mobile */
+  }
+
+  .text-center h2 {
+    font-size: 28px; /* Adjust heading size for mobile */
+  }
+
+  .text-center p {
+    font-size: 16px; /* Adjust paragraph size for mobile */
+  }
+
+  .donate-button {
+    padding: 10px 20px; /* Adjust button size */
+    font-size: 14px; /* Adjust button text size */
+  }
+
+  .home-second-wrapper {
+    padding: 60px 0; /* Reduce padding for mobile */
+  }
+
+  .hope-section {
+    flex-direction: column; /* Stack elements vertically */
+    align-items: center; /* Center align items */
+    gap: 20px; /* Add spacing between items */
+    text-align: center; /* Ensure text alignment is center */
+  }
+
+  .hope-heading h2 {
+    font-size: 30px; /* Adjust heading size */
+  }
+
+  .hope-heading p {
+    font-size: 16px; /* Adjust paragraph size */
+    padding: 0 10px; /* Add some padding for readability */
+  }
+
+  .hope-image {
+    width: 100%; /* Ensure the image container takes full width */
+    text-align: center;
+  }
+
+  .hope-image img {
+    max-width: 80%; /* Scale the image for mobile view */
+    height: auto;
+  }
+}
