@@ -20,6 +20,11 @@ nav {
     padding: 0 50px;
     height: 75px;
     background-image: linear-gradient(#00308F, #1584DA);
+    border-bottom-left-radius: 50px;
+    border-bottom-right-radius: 50px;
+    border-top-left-radius: 50px;
+    border-top-right-radius: 50px;
+
 }
 
 .logo img {
