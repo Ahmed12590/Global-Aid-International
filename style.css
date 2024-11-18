@@ -98,7 +98,7 @@ nav a {
   
   .text-center h2 {
     color: #1a3e85;
-    font-size: 28px;
+    font-size: 50px;
     font-weight: bold;
     margin-bottom: 15px;
   }
@@ -126,6 +126,48 @@ nav a {
   
 
 
+.home-second-wrapper {
+    background-color: #B0D5F1;
+    padding: 120px 0;
+}
+
+.hope-section{
+    display: flex;
+    align-items: center;
+    text-align: center;
+    width: 100%;
+}
+
+.hope-section {
+    flex: 4;
+    padding: 0 20px;
+  }
+  
+  .hope-heading h2 {
+    color: #1a3e85;
+    font-size: 60px;
+    font-weight: bold;
+    margin-bottom: 15px;
+
+  }
+  
+  .hope-heading p {
+    color: #333;
+    font-size: 18px;
+    margin-bottom: 20px;
+  }
+
+.hope-image {
+    display: flex;
+    justify-content: center; /* Centers horizontally */
+    align-items: center; /* Centers vertically */
+    flex: 1; /* Adjusts the size distribution */
+}
+
+.hope-image img {
+    max-width: 100%;
+    height: auto; /* Ensures the image scales properly */
+}
 
 
 
@@ -144,16 +186,7 @@ nav a {
 
 
 
-
-
-
-
-
-
-
-
-
-
+/* gift & Donate page css  */
 
 
 .intro-section {
