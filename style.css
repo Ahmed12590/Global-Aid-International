@@ -187,12 +187,17 @@ nav a {
   }
   
   .Campaigns-heading h2 {
-    color: #1a3e85;
-    font-size: 60px;
-    font-weight: bold;
-    margin-bottom: 15px;
-    justify-content: center;
-    display: flex;
+  color: transparent; /* Make text transparent to show gradient */
+  font-family: 'Geometric 415 Black', sans-serif; 
+  font-size: 60px;
+  font-weight: bold;
+  margin-bottom: 15px;
+  justify-content: center;
+  display: flex;
+  background: linear-gradient(90deg, #023695,  #1584DA); /* Gradient colors */
+  background-clip: text; /* Clip the background to the text */
+  -webkit-background-clip: text; /* For Safari support */
+  -webkit-text-fill-color: transparent; /* For Safari support */
   }
   
   .Campaigns-heading p {
@@ -204,10 +209,145 @@ nav a {
     text-align: center; /* Align text content to center */
   }
   
-
-
-
-
+/* General Section Styles */
+.news-section {
+    text-align: center;
+    padding: 40px 20px;
+    background-color: #fff;
+  }
+  
+  .news-title {
+    font-family: 'Poppins', sans-serif; /* Use your desired font */
+    font-size: 24px;
+    font-weight: bold;
+    color: #1a3e85;
+    margin-bottom: 20px;
+    position: relative;
+  }
+  
+  /* Title Underline */
+  .news-title::after {
+    content: '';
+    display: block;
+    width: 50px;
+    height: 3px;
+    background-color: #1a3e85;
+    margin: 10px auto;
+  }
+  
+  /* News Container */
+  .news-container {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+  }
+  
+  /* News Card */
+  .news-card {
+    position: relative;
+    width: 250px; /* Increased width */
+    height: 350px; /* Added height for larger cards */
+    border-radius: 15px;
+    overflow: hidden;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s;
+  }
+  
+  .news-card img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover; /* Ensures the image scales without distortion */
+  }
+  
+  .news-card:hover {
+    transform: scale(1.05);
+  }
+  
+  /* Text Overlay */
+  .news-text {
+    position: absolute;
+    bottom: 10px; /* Positioned text slightly above the bottom */
+    left: 10px;
+    right: 10px;
+    color: #fff;
+    font-size: 16px;
+    text-align: center;
+    font-weight: bold;
+    padding: 5px;
+    background: none; /* Removed background color */
+  }
+  
+  /* Featured News Styling */
+  .featured-news {
+    border: 3px solid #1a3e85;
+    border-radius: 20px;
+  }
+  
+  /* Button */
+  .news-button {
+    background-color: #1a3e85;
+    color: #fff;
+    padding: 10px 20px;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 20px;
+  }
+  
+  .news-button:hover {
+    background-color: #134a8e;
+  }
+  
+/* News Card */
+.news-card {
+    position: relative;
+    width: 250px; /* Increased width */
+    height: 350px; /* Added height for larger cards */
+    border-radius: 15px;
+    overflow: hidden;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s;
+  }
+  
+  .news-card img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover; /* Ensures the image scales without distortion */
+  }
+  
+  /* Black Overlay */
+  .news-card::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5); /* Black overlay with transparency */
+    z-index: 1; /* Ensures overlay is on top of the image */
+  }
+  
+  /* Text Overlay */
+  .news-text {
+    position: absolute;
+    bottom: 10px; /* Positioned text slightly above the bottom */
+    left: 10px;
+    right: 10px;
+    color: #fff;
+    font-size: 16px;
+    text-align: center;
+    font-weight: bold;
+    padding: 5px;
+    background: none; /* Removed background color */
+    z-index: 2; /* Ensure text appears above the overlay */
+  }
+  
+  .news-card:hover {
+    transform: scale(1.05);
+  }
+  
 
 
 
