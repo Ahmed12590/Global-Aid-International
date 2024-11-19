@@ -353,7 +353,7 @@ nav a {
 
 
   .homedonation-form {
-    background-image: url('images/formbackground.png'); /* Replace 'background.jpg' with your image path */
+    background-image: url('images/formbackground.png'); 
     background-size: cover;
     background-position: center;
     padding: 50px 20px;
@@ -426,7 +426,7 @@ input[type="checkbox"] {
 
 
 
-/* General Section Styles */
+/* supporters Section Styles */
 .supporters-section {
   background-color: #e6f0fa; /* Light blue background */
   text-align: center;
