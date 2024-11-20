@@ -987,7 +987,7 @@ input[type="checkbox"] {
 .donate-button {
   display: inline-block;
   padding: 10px 20px;
-  background-color: #1584da;
+  background-color: #1584da00;
   color: white;
   font-size: 1rem;
   text-decoration: none;
