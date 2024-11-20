@@ -217,13 +217,19 @@ nav a {
   }
   
   .news-title {
-    font-family: 'Poppins', sans-serif; /* Use your desired font */
-    font-size: 50px;
+    font-family: 'Geometric', sans-serif; /* Updated font family */
+    font-size: 60px;
     font-weight: bold;
-    color: #1a3e85;
+    color: transparent; /* Text color must be transparent to show the gradient */
+    background: linear-gradient(90deg, #00308F, #137CD3); /* Gradient colors */
+    -webkit-background-clip: text; /* Clip the gradient to the text */
+    background-clip: text; /* Ensure compatibility for other browsers */
     margin-bottom: 20px;
     position: relative;
-  }
+    text-stroke: 2px white; /* Add white stroke around the text */
+    -webkit-text-stroke: 2px white; /* Safari-specific stroke property */
+}
+
   
   /* Title Underline */
   .news-title::after {
@@ -435,9 +441,14 @@ input[type="checkbox"] {
 }
 
 .supporters-section .section-title {
-  font-size: 60px;
+  font-size: 80px;
+  font-family: 'Geometric 415 Black', Arial, sans-serif; /* Fallback fonts added */
   font-weight: bold;
-  color: #1a3e85; /* Dark blue text */
+  color: transparent; /* Set text color to transparent */
+  background: linear-gradient(to right, #00308F, #137CD3); /* Gradient colors */
+  -webkit-background-clip: text; /* Clips the background to the text */
+  -webkit-text-fill-color: transparent; /* Fills the text with the gradient */
+  -webkit-text-stroke: 1px white; /* White stroke around the text */
   margin-bottom: 10px;
   text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2); /* Subtle text shadow */
 }
@@ -889,6 +900,13 @@ input[type="checkbox"] {
     font-family: 'Poppins', sans-serif; /* Use your desired font */
     font-size: 26px;
   }
+.supporters-section .section-title {
+  font-size: 40px;
+}
+
+
+
+
 
 
 /* footer bottom media css  */
