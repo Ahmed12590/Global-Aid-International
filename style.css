@@ -547,18 +547,147 @@ input[type="checkbox"] {
   color: #fff;
 }
 
+/* About us page css  */
+
+.together-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 60vh;           
+ background-color: white; 
+}
+
+
+.together-title h1 {
+  text-align: center;  
+  font-size: 70px;      
+  margin: 0;
+  font-family: 'Geomatric', sans-serif; 
+  font-weight: 700;
+  background: linear-gradient(45deg, #00308F, #1584DA); 
+  -webkit-background-clip: text; 
+  color: transparent; 
+}
+
+
+.who-wrapper {
+  background-color: #B0D5F1; 
+  display: flex;
+  justify-content: center;  
+  align-items: center;      
+  padding: 20px;           
+  gap: 20px;                
+}
+
+.whoare-img img {
+  max-width: 85%;          
+  height: auto;             
+  border-radius: 8px;       
+}
+
+.whoarewe-title {
+  max-width: 600px;         
+  text-align: left;         
+}
+
+.whoarewe-title h2 {
+  background: linear-gradient(45deg, #00308F, #1278CF); 
+  display: inline-block;    
+  color: white;            
+  padding: 10px 20px;       
+  border-radius: 8px;       
+  font-family: 'Geometria', sans-serif; 
+  font-weight: 700;        
+  margin-bottom: 20px;      
+}
+
+.whoarewe-title p {
+  font-size: 16px; 
+  font-family: Arial, Helvetica, sans-serif;         
+  line-height: 1.6;         
+  color: #000000;              
+  margin-bottom: 10px;
+}
 
 
 
+.mission-wrapper{
+  background-color: #B0D5F1; 
+  display: flex;
+  justify-content: center;  
+  align-items: center;      
+  padding: 20px;           
+  gap: 20px; 
 
+}
 
+.mission-img img {
+  max-width: 85%;          
+  height: auto;             
+  border-radius: 8px;       
+}
+.mission-titile {
+  max-width: 600px;         
+  text-align: left;         
+}
 
+.mission-titile h2 {
+  background: linear-gradient(45deg, #00308F, #1278CF); 
+  display: inline-block;    
+  color: white;            
+  padding: 10px 20px;       
+  border-radius: 8px;       
+  font-family: 'Geometria', sans-serif; 
+  font-weight: 700;        
+  margin-bottom: 20px;      
+}
 
+.mission-img p {
+  font-size: 16px; 
+  font-family: Arial, Helvetica, sans-serif;         
+  line-height: 1.6;         
+  color: #000000;              
+  margin-bottom: 10px;
+}
 
+.vision-wrapper {
+  background-color: #B0D5F1; 
+  display: flex;
+  justify-content: center;  
+  align-items: center;      
+  padding: 20px;           
+  gap: 20px;                
+}
 
+.vision-img {
+  max-width: 85%;          
+  height: auto;             
+  border-radius: 8px;       
+}
 
+.vision-title {
+  max-width: 600px;         
+  text-align: left;         
+}
 
+.vision-title h2 {
+  background: linear-gradient(45deg, #00308F, #1278CF); 
+  display: inline-block;    
+  color: white;            
+  padding: 10px 20px;       
+  border-radius: 8px;       
+  font-family: 'Geometria', sans-serif; 
+  font-weight: 700;        
+  margin-bottom: 20px;      
+}
 
+.vision-title p {
+  font-size: 16px; 
+  font-family: Arial, Helvetica, sans-serif;         
+  line-height: 1.6;         
+  color: #000000;              
+  margin-bottom: 10px;
+}
 
 
 
@@ -915,6 +1044,48 @@ input[type="checkbox"] {
   font-size: 40px;
 }
 
+/* about us page css  */
+
+
+
+together-wrapper {
+  padding: 15px; /* Reduce padding on smaller devices */
+}
+
+.together-title h1 {
+  font-size: 40px; /* Further reduce font size for mobile */
+}
+
+.who-wrapper, .mission-wrapper, .vision-wrapper {
+  padding: 20px; /* Less padding on mobile */
+  gap: 15px; /* Smaller gap between items */
+}
+
+.whoarewe-title h2, .mission-titile h2, .vision-title h2 {
+  font-size: 20px; /* Adjust heading size */
+}
+
+.whoarewe-title p, .mission-titile p, .vision-title p {
+  font-size: 15px; /* Smaller text on mobile */
+}
+
+.whoare-img img, .mission-img img, .vision-img img {
+  max-width: 90%; /* Image width slightly reduced */
+}
+
+
+.who-wrapper {
+  display: block;
+  padding: 10px;
+}
+
+.vision-wrapper  {
+  display: block;
+  padding: 10px;
+}
+
+
+}
 
 
 
