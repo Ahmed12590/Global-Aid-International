@@ -484,13 +484,14 @@ input[type="checkbox"] {
 }
 
 .donate-card {
-  background-color: rgba(0, 38, 102, 0.9); /* Semi-transparent blue */
+  background-color: #00308F; /* Semi-transparent blue */
   color: #fff;
-  border-radius: 15px;
   padding: 20px;
   width: 300px;
   text-align: center;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  border-bottom-right-radius: 100px;
+  border-top-left-radius: 100px;
 }
 
 .card-title {
@@ -507,7 +508,7 @@ input[type="checkbox"] {
 
 .donate-button {
   background-color: #fff;
-  color: #002666;
+  /* color: #002666; */
   border: none;
   padding: 10px 20px;
   font-size: 14px;
@@ -515,6 +516,8 @@ input[type="checkbox"] {
   border-radius: 5px;
   cursor: pointer;
   transition: background-color 0.3s ease, color 0.3s ease;
+  background-color: transparent;
+    border: solid;
 }
 
 .donate-button:hover {
@@ -675,7 +678,7 @@ input[type="checkbox"] {
 
 /* donate page css end  */
 
-/* Footer css  */
+
 /* Footer Styles */
 .footer {
   background-color: #002666; /* Footer background color */
@@ -742,12 +745,23 @@ input[type="checkbox"] {
 
 /* Footer Bottom */
 .footer-bottom {
-  text-align: center;
+  /* text-align: center; */
   margin-top: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: white;
 }
 
 .footer-bottom img {
   width: 150px; /* Adjust logo size */
+}
+.footer-bottom p {
+  font-size: 12px;
+  font-family: Arial, Helvetica, sans-serif;
+  color: black;
+  padding-left: 50px;
+
 }
 
 
@@ -876,4 +890,20 @@ input[type="checkbox"] {
     font-size: 26px;
   }
 
+
+/* footer bottom media css  */
+
+.footer-bottom {
+  flex-direction: column; /* Stack logo and text vertically */
+  text-align: center; /* Center everything */
+}
+
+.footer-bottom img {
+  margin-bottom: 15px; /* Add more spacing below the logo */
+}
+
+.footer-bottom p {
+  font-size: 10px; /* Slightly smaller font size for mobile */
+  padding: 0 10px; /* Add some horizontal padding for text */
+}
 }
