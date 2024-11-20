@@ -123,20 +123,23 @@ nav a {
   background: linear-gradient(45deg, #00308F, #1584DA);
   color: white;
   border: none;
-  border-radius: 25px; 
+  border-radius: 25px; /* Rounded corners */
+  padding: 12px 25px;
   font-size: 16px;
   cursor: pointer;
   transition: background 0.3s ease, transform 0.2s ease;
-  text-transform: uppercase; 
+  text-transform: uppercase; /* Convert text to uppercase */
+}
+
+.donateicon-button .icon img {
+  width: 20px; /* Adjust size of the image */
+  height: auto; /* Maintain aspect ratio */
+  vertical-align: middle; /* Align image with the text */
 }
 
 .donateicon-button:hover {
   background: linear-gradient(45deg, #1584DA, #00308F); /* Reverse gradient on hover */
   transform: scale(1.05);
-}
-
-.donateicon-button .icon {
-  font-size: 20px;
 }
 
 .home-second-wrapper {
