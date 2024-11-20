@@ -117,18 +117,26 @@ nav a {
   margin-bottom: 20px;
 }
 
-.donate-button {
-  background-color: #1a3e85;
-  color: #fff;
-  padding: 12px 24px;
+.donateicon-button {
+  align-items: center;
+  gap: 8px;
+  background: linear-gradient(45deg, #00308F, #1584DA);
+  color: white;
   border: none;
-  border-radius: 5px;
-  cursor: pointer;
+  border-radius: 25px; 
   font-size: 16px;
+  cursor: pointer;
+  transition: background 0.3s ease, transform 0.2s ease;
+  text-transform: uppercase; 
 }
 
-.donate-button:hover {
-  background-color: #134a8e;
+.donateicon-button:hover {
+  background: linear-gradient(45deg, #1584DA, #00308F); /* Reverse gradient on hover */
+  transform: scale(1.05);
+}
+
+.donateicon-button .icon {
+  font-size: 20px;
 }
 
 .home-second-wrapper {
