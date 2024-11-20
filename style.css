@@ -338,17 +338,17 @@ nav a {
   }
   
   .news-title {
-    font-family: 'Geometric', sans-serif; /* Updated font family */
+    font-family: 'Geometric', sans-serif; 
     font-size: 60px;
     font-weight: bold;
-    color: transparent; /* Text color must be transparent to show the gradient */
-    background: linear-gradient(90deg, #00308F, #137CD3); /* Gradient colors */
-    -webkit-background-clip: text; /* Clip the gradient to the text */
-    background-clip: text; /* Ensure compatibility for other browsers */
+    color: transparent; 
+    background: linear-gradient(90deg, #00308F, #137CD3); 
+    -webkit-background-clip: text; 
+    background-clip: text; 
     margin-bottom: 20px;
     position: relative;
-    text-stroke: 2px white; /* Add white stroke around the text */
-    -webkit-text-stroke: 2px white; /* Safari-specific stroke property */
+    text-stroke: 2px white; 
+    -webkit-text-stroke: 2px white; 
 }
 
   
