@@ -5,6 +5,8 @@
   font-family: "Poppins", sans-serif;
 }
 
+
+/* Desktop Header */
 .header {
   width: 100%;
   position: fixed;
@@ -62,6 +64,112 @@ nav a {
   transition: 0.3s;
 }
 
+
+/* Mobile Header Styles */
+.mobile-header {
+  display: none; /* Hidden by default */
+}
+
+.mobile-header nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+  background-color: #00308f;
+}
+
+.mobile-header .logo img {
+  height: 40px;
+}
+
+/* Menu Icon Styles */
+.menu-icon {
+  display: block;
+  cursor: pointer;
+}
+
+.menu-bar {
+  width: 30px;
+  height: 4px;
+  margin: 6px 0;
+  background-color: white;
+  transition: 0.3s;
+}
+
+/* Mobile Menu */
+.mobile-menu {
+  display: none;
+  background-color: #00308f;
+  padding: 20px;
+  position: absolute;
+  top: 75px; /* Adjust if needed */
+  left: 0;
+  width: 100%;
+  text-align: center;
+  border-radius: 10px;
+}
+
+.mobile-menu ul {
+  list-style: none;
+  padding: 0;
+}
+
+.mobile-menu li {
+  margin: 15px 0;
+}
+
+.mobile-menu a {
+  color: white;
+  text-decoration: none;
+  font-size: 18px;
+  font-weight: 600;
+  font-family: "Poppins-medium", sans-serif;
+}
+
+.donate-button {
+  background-color: white;
+  color: #00308f;
+  padding: 8px 20px;
+  border-radius: 20px;
+  font-weight: bold;
+}
+
+/* Show Mobile Header and Hide Desktop Header on Mobile */
+@media screen and (max-width: 768px) {
+  .header {
+    display: none; /* Hide desktop header */
+  }
+
+  .mobile-header {
+    display: block; /* Show mobile header */
+  }
+  
+  .mobile-menu.open {
+    display: block; /* Show the mobile menu when toggled */
+  }
+}
+
+/* Menu Icon Animation */
+.menu-icon.open .menu-bar:nth-child(1) {
+  transform: rotate(-45deg);
+  position: relative;
+  top: 10px;
+}
+
+.menu-icon.open .menu-bar:nth-child(2) {
+  opacity: 0;
+}
+
+.menu-icon.open .menu-bar:nth-child(3) {
+  transform: rotate(45deg);
+  position: relative;
+  top: -10px;
+}
+
+
+/* ////////////////////////////////// */
+
+
 /* home page css  */
 
 .education-section-wrapper {
@@ -109,6 +217,8 @@ nav a {
   font-size: 50px;
   font-weight: bold;
   margin-bottom: 15px;
+  line-height: 1.2;
+  font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
 .text-center p {
