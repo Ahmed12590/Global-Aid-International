@@ -742,18 +742,19 @@ input[type="checkbox"] {
 }
 
 .intro-content h1 {
-  font-size: 2.5rem;
+  font-size: 60px ;
+  line-height: 1.2;
   color: #00308f; 
   margin-bottom: 20px;
-  font-family: "Poppins-SemiBlod", sans-serif;
+  font-family: "geomatric", sans-serif;
 }
 
 .intro-content p {
-  font-size: 1.1rem;
-  color: #555;
+  font-size: 15px;
+  color: #000000;
   line-height: 1.6;
   margin-bottom: 20px;
-  font-family: "Poppins", sans-serif;
+  font-family: "arial", sans-serif;
 }
 
 .learn-more-button {
@@ -791,7 +792,7 @@ input[type="checkbox"] {
 
 .campaign-card {
   position: relative;
-  width: 300px;
+  width: 450px;
   border-radius: 8px;
   overflow: hidden;
 
@@ -808,7 +809,8 @@ input[type="checkbox"] {
 
 .overlay-text h3 {
   color: #ffffff; 
-  background-color: #00308F;
+  background-color: #00308f85;
+  border-radius: 5px;
   font-size: 20px;
   font-weight: 700;
   margin-bottom: 10px;
