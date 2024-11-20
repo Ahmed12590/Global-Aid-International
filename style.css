@@ -256,7 +256,7 @@ nav a {
   .news-container {
     display: flex;
     justify-content: center;
-    gap: 20px;
+    gap: 70px;
     flex-wrap: wrap;
   }
   
@@ -453,20 +453,20 @@ input[type="checkbox"] {
 
 .supporters-section .section-title {
   font-size: 80px;
-  font-family: 'Geometric 415 Black', Arial, sans-serif; /* Fallback fonts added */
+  font-family: 'Geometric 415 Black', Arial, sans-serif; 
   font-weight: bold;
-  color: transparent; /* Set text color to transparent */
-  background: linear-gradient(to right, #00308F, #137CD3); /* Gradient colors */
-  -webkit-background-clip: text; /* Clips the background to the text */
-  -webkit-text-fill-color: transparent; /* Fills the text with the gradient */
-  -webkit-text-stroke: 1px white; /* White stroke around the text */
+  color: transparent; 
+  background: linear-gradient(to right, #00308F, #137CD3); 
+  -webkit-background-clip: text; 
+  -webkit-text-fill-color: transparent; 
+  -webkit-text-stroke: 1px white; 
   margin-bottom: 10px;
-  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2); /* Subtle text shadow */
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2); /
 }
 
 .supporters-section .section-description {
   font-size: 16px;
-  color: #555;
+  color: #000000;
   margin-bottom: 30px;
 }
 
@@ -474,24 +474,24 @@ input[type="checkbox"] {
   display: flex;
   justify-content: center;
   align-items: center;
-  gap: 30px; /* Space between logos */
+  gap: 60px; 
   flex-wrap: wrap;
 }
 
 .supporters-logos .logo {
-  max-width: 100px; /* Logo size */
-  filter: grayscale(100%); /* Grayscale effect for logos */
+  max-width: 100px; 
+  filter: grayscale(100%); 
   transition: filter 0.3s ease;
 }
 
 .supporters-logos .logo:hover {
-  filter: grayscale(0%); /* Remove grayscale on hover */
+  filter: grayscale(0%); 
 }
 
 
 /* Donate Section */
 .donate-section {
-  background: url('images/homelastback.png') no-repeat center center/cover; /* Add your image path */
+  background: url('images/homelastback.png') no-repeat center center/cover; 
   padding: 60px 20px;
   display: flex;
   justify-content: center;
@@ -501,7 +501,7 @@ input[type="checkbox"] {
 .donate-container {
   display: flex;
   justify-content: center;
-  gap: 20px;
+  gap: 40px;
   flex-wrap: wrap;
 }
 
@@ -896,7 +896,6 @@ input[type="checkbox"] {
 
 /* Footer Bottom */
 .footer-bottom {
-  /* text-align: center; */
   margin-top: 20px;
   display: flex;
   align-items: center;
@@ -905,7 +904,7 @@ input[type="checkbox"] {
 }
 
 .footer-bottom img {
-  width: 150px; /* Adjust logo size */
+  width: 150px; 
 }
 .footer-bottom p {
   font-size: 12px;
@@ -1046,7 +1045,14 @@ input[type="checkbox"] {
 
 /* about us page css  */
 
-
+.together-wrapper {
+  display: flex
+;
+  justify-content: center;
+  align-items: center;
+  height: 40vh;
+  background-color: white;
+}
 
 together-wrapper {
   padding: 15px; /* Reduce padding on smaller devices */
@@ -1094,8 +1100,7 @@ together-wrapper {
 /* footer bottom media css  */
 
 .footer-bottom {
-  flex-direction: column; /* Stack logo and text vertically */
-  text-align: center; /* Center everything */
+  text-align: center; 
 }
 
 .footer-bottom img {
@@ -1105,5 +1110,4 @@ together-wrapper {
 .footer-bottom p {
   font-size: 10px; /* Slightly smaller font size for mobile */
   padding: 0 10px; /* Add some horizontal padding for text */
-}
 }
