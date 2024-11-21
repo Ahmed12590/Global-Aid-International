@@ -1373,7 +1373,22 @@ together-wrapper {
   padding: 10px;
 }
 
+/* campaing and gift csss  */
 
+.intro-section {
+  display: block;
+  
+}
+
+
+.intro-content h1 {
+  font-size: 32px;
+`}
+
+
+  .intro-content p {
+    font-size: 19px;
+  }
 }
 
 
