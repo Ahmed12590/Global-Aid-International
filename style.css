@@ -1272,6 +1272,16 @@ input[type="checkbox"] {
     font-size: 14px; /* Adjust button text size */
   }
 
+
+.news-text p {
+  font-size: 15px;
+  line-height: 1.2;
+}
+}
+
+
+
+
   .home-second-wrapper {
     padding: 60px 0; /* Reduce padding for mobile */
   }
