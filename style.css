@@ -321,16 +321,16 @@ nav a {
 }
 
 .campaig-title {
-  height: 50vh;
+  height: 40vh;
   text-align: center;
-  font-size: 55px;
+  font-size: 40px;
   margin: 0;
-  font-family: 'Geomatric', sans-serif;
+  /* font-family: 'Geomatric', sans-serif; */
   font-weight: 700;
   background: linear-gradient(45deg, #00308F, #1584DA);
   -webkit-background-clip: text;
   color: transparent;
-padding-top: 70px;
+padding-top: 80px;
 }
 
 
@@ -1322,7 +1322,7 @@ input[type="checkbox"] {
 /* campaign page css  */
 
 .campaig-title {
-  font-size: 30px;          
+  font-size: 20px;          
   height: auto;            
   padding-top: 40px;       
 }
