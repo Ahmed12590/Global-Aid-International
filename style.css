@@ -174,21 +174,21 @@ nav a {
 .education-section-wrapper {
   background-color: #f9f9f9;
   padding: 120px 0;
-  width: 100%; /* Ensures the wrapper spans the full width */
+  width: 100%; 
 }
 
 .education-section {
-  width: 100%; /* Ensures the section spans the full width */
+  width: 100%; 
   display: flex;
-  justify-content: space-between; /* Space between icons and center content */
+  justify-content: space-between; 
   align-items: center;
-  margin: 0; /* Remove auto centering for full-width layout */
+  margin: 0; 
 }
 
 .education-content {
   display: flex;
   align-items: center;
-  justify-content: space-between; /* Distributes content evenly */
+  justify-content: space-between; 
   width: 100%;
   text-align: center;
 }
@@ -197,17 +197,17 @@ nav a {
 .icon-right {
   flex: 1;
   display: flex;
-  justify-content: center; /* Centers icons horizontally */
+  justify-content: center; 
 }
 
 .icon-left img,
 .icon-right img {
-  width: 80px; /* Adjust icon size if needed */
+  width: 80px; 
   height: auto;
 }
 
 .text-center {
-  flex: 3; /* Takes up more space than the icons */
+  flex: 3; 
   padding: 0 20px;
 }
 
@@ -1318,22 +1318,22 @@ input[type="checkbox"] {
 
 
   .Campaigns-wrapper {
-    padding: 60px 0; /* Reduce padding for smaller screens */
+    padding: 60px 0; 
   }
 
   .Campaigns-heading h2 {
-    font-size: 30px; /* Reduce heading size for mobile */
-    line-height: 1.4; /* Adjust line spacing */
+    font-size: 40px; 
+    line-height: 1.4; 
   }
 
   .Campaigns-heading p {
-    font-size: 16px; /* Reduce paragraph font size */
-    line-height: 1.5; /* Improve readability */
-    padding: 0 10px; /* Add some side padding for smaller screens */
+    font-size: 16px; 
+    line-height: 1.5; 
+    padding: 0 10px; 
   }
 
 .news-title {
-    font-family: 'Poppins', sans-serif; /* Use your desired font */
+    font-family: 'Poppins', sans-serif; 
     font-size: 40px;
   }
 .supporters-section .section-title {
@@ -1422,6 +1422,6 @@ together-wrapper {
 }
 
 .footer-bottom p {
-  font-size: 10px; /* Slightly smaller font size for mobile */
+  font-size: 15px; /* Slightly smaller font size for mobile */
   padding: 0 10px; /* Add some horizontal padding for text */
 }
