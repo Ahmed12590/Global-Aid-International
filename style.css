@@ -112,7 +112,7 @@ nav a {
 }
 
 .mobile-menu.open {
-  display: block; /* Show menu when 'open' class is added */
+  display: block; 
 }
 
 /* Menu Icon */
@@ -149,6 +149,7 @@ nav a {
   top: -10px;
 }
 
+
 /* Media Query for Mobile */
 @media screen and (max-width: 768px) {
   .header {
@@ -162,7 +163,22 @@ nav a {
   .mobile-menu.open {
     display: block;
   }
+
+  /* Hide the donate button on mobile */
+  .mobile-menu .donate-button {
+    display: none;
+  }
+
+  /* Make menu text white */
+  .mobile-menu ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: 600;
+    font-family: "Poppins-medium", sans-serif;
+  }
 }
+
 
 
 
@@ -1459,8 +1475,6 @@ input[type="checkbox"] {
   font-size: 38px;
     color: #00308f;
     margin-bottom: 15px;
-}
-
 }
 
 
