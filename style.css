@@ -217,7 +217,7 @@ nav a {
   font-weight: bold;
   margin-bottom: 15px;
   line-height: 1.2;
-  font-family: Georgia, 'Times New Roman', Times, serif;
+  /* font-family: Georgia, 'Times New Roman', Times, serif; */
 }
 
 .text-center p {
@@ -1404,9 +1404,19 @@ together-wrapper {
     font-size: 19px;
   }
 
+/* donation page css  */
 
+.donation-section {
+  display: block;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+  background-color: #f5f5f5;
+  border-radius: 10px;
 }
 
+
+}
 
 
 
