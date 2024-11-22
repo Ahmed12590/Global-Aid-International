@@ -1,13 +1,8 @@
-// Mobile Menu Toggle
-const menuIcon = document.getElementById('menu-icon');
-const mobileMenu = document.getElementById('mobile-menu');
+const menuToggle = document.getElementById("menu-toggle");
+const mobileMenu = document.getElementById("mobile-menu");
 
-menuIcon.addEventListener('click', function() {
-    // Toggle menu visibility
-    mobileMenu.classList.toggle('open');
-    
-    // Toggle menu icon state (for animation)
-    menuIcon.classList.toggle('open');
+menuToggle.addEventListener("click", function () {
+  // Toggle the 'open' class for both menu and icon
+  mobileMenu.classList.toggle("open");
+  menuToggle.classList.toggle("open");
 });
-
-

@@ -98,7 +98,7 @@ nav a {
 
 /* Mobile Menu */
 .mobile-menu {
-  display: none;
+  display: none; /* Hidden initially */
   background-color: #00308f;
   padding: 20px;
   position: absolute;
@@ -107,46 +107,29 @@ nav a {
   width: 100%;
   text-align: center;
   border-radius: 10px;
+  z-index: 1000;
+  transition: all 0.3s ease-in-out;
 }
 
-.mobile-menu ul {
-  list-style: none;
-  padding: 0;
+.mobile-menu.open {
+  display: block; /* Show menu when 'open' class is added */
 }
 
-.mobile-menu li {
-  margin: 15px 0;
+/* Menu Icon */
+.menu-icon {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 25px;
+  cursor: pointer;
 }
 
-.mobile-menu a {
-  color: white;
-  text-decoration: none;
-  font-size: 18px;
-  font-weight: 600;
-  font-family: "Poppins-medium", sans-serif;
-}
-
-.donate-button {
+.menu-bar {
   background-color: white;
-  color: #00308f;
-  padding: 8px 20px;
-  border-radius: 20px;
-  font-weight: bold;
-}
-
-/* Show Mobile Header and Hide Desktop Header on Mobile */
-@media screen and (max-width: 768px) {
-  .header {
-    display: none; /* Hide desktop header */
-  }
-
-  .mobile-header {
-    display: block; /* Show mobile header */
-  }
-  
-  .mobile-menu.open {
-    display: block; /* Show the mobile menu when toggled */
-  }
+  height: 3px;
+  width: 30px;
+  border-radius: 5px;
+  margin: 2px 0;
 }
 
 /* Menu Icon Animation */
@@ -157,7 +140,7 @@ nav a {
 }
 
 .menu-icon.open .menu-bar:nth-child(2) {
-  opacity: 0;
+  opacity: 0; /* Middle bar disappears */
 }
 
 .menu-icon.open .menu-bar:nth-child(3) {
@@ -165,6 +148,22 @@ nav a {
   position: relative;
   top: -10px;
 }
+
+/* Media Query for Mobile */
+@media screen and (max-width: 768px) {
+  .header {
+    display: none; /* Hide desktop header */
+  }
+
+  .mobile-header {
+    display: block; /* Show mobile header */
+  }
+
+  .mobile-menu.open {
+    display: block;
+  }
+}
+
 
 
 /* ////////////////////////////////// */
@@ -562,16 +561,16 @@ input[type="checkbox"] {
 }
 
 .supporters-section .section-title {
-  font-size: 80px;
+  font-size: 70px;
   font-family: 'Geometric 415 Black', Arial, sans-serif; 
   font-weight: bold;
   color: transparent; 
   background: linear-gradient(to right, #00308F, #137CD3); 
   -webkit-background-clip: text; 
-  -webkit-text-fill-color: transparent; 
-  -webkit-text-stroke: 1px white; 
+  /* -webkit-text-fill-color: transparent; 
+  -webkit-text-stroke: 1px white;  */
   margin-bottom: 10px;
-  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2); /
+  /* text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2); / */
 }
 
 .supporters-section .section-description {
@@ -1312,7 +1311,8 @@ input[type="checkbox"] {
   font-size: 15px
 }
 
-
+.supporters-section .section-description {
+  font-size: 21px; }
 
 
 
@@ -1397,7 +1397,7 @@ together-wrapper {
 
 .intro-content h1 {
   font-size: 32px;
-`}
+}
 
 
   .intro-content p {
