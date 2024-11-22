@@ -1089,6 +1089,7 @@ input[type="checkbox"] {
   background-color: #f5f5f5; /* Light background color for section */
   margin-top: 40px;
   border-radius: 10px;
+  line-height: 1.2;
 }
 
 .donation-image img {
@@ -1473,11 +1474,11 @@ input[type="checkbox"] {
   padding: 0 10px;  */
 }
 
-.donation-section {
+/* .donation-section {
   display: block;
   padding: 20px;
   margin-top: 0px;
-}
+} */
 .donation-content h2 {
   font-size: 38px;
     color: #00308f;
@@ -1490,6 +1491,21 @@ input[type="checkbox"] {
   .supporters-section .section-title {
     font-size: 40px; /* Adjust font size for mobile view */
   }
+}
+
+/* Media Query for mobile */
+@media screen and (max-width: 768px) {
+  .donation-section {
+    padding: 20px; /* Adjust padding for mobile view */
+    margin-top: 20px; /* Reduce margin for mobile */
+    flex-direction: column; /* Stack items vertically on small screens */
+  }
+
+
+  .donation-section h2 {
+    font-size: 32px;
+}
+
 }
 
 
