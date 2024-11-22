@@ -52,6 +52,7 @@ nav {
 nav ul {
   display: flex;
   list-style: none;
+ text-transform: uppercase; /* Capitalizes the text */
 }
 
 nav li {
@@ -63,7 +64,7 @@ nav a {
   text-decoration: none;
   font-size: 16px;
   font-weight: 600;
-  font-family: "Poppins-medium", sans-serif;
+  font-family: "Arial", sans-serif;
 }
 
 .donate-button {
@@ -122,14 +123,15 @@ nav a {
   left: 0;
   width: 100%;
   text-align: center;
-  border-radius: 10px;
   z-index: 1000;
   transition: all 0.3s ease-in-out;
 }
 
 .mobile-menu.open {
   display: block; 
+  background: linear-gradient(135deg, #00308F, #1584DA); /* Two-color gradient */
 }
+
 
 /* Menu Icon */
 .menu-icon {
@@ -198,6 +200,7 @@ nav a {
     list-style: none; /* Removes the dots */
     padding: 0; /* Removes any default padding */
     margin: 0; /* Removes any default margin */
+    line-height: 3;
   }
   .mobile-header nav {
     border-radius: 0; /* Remove any border radius */
@@ -254,11 +257,11 @@ nav a {
 
 .text-center h2 {
   color: #1a3e85;
-  font-size: 50px;
+  font-size: 52px;
   font-weight: bold;
   margin-bottom: 15px;
   line-height: 1.2;
-  /* font-family: Georgia, 'Times New Roman', Times, serif; */
+  font-family: "Geometric", sans-serif;
 }
 
 .text-center p {
@@ -1518,4 +1521,4 @@ input[type="checkbox"] {
   align-items: center;
   gap: 20px;
 }
-
+}

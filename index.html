@@ -8,7 +8,6 @@
     <link rel="stylesheet" href="style.css">
     <link rel="icon" href="images/favicon.png" type="image/x-icon">
     <link rel="stylesheet" href="toggle.js">
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" rel="stylesheet">
 
 </head>
@@ -27,7 +26,8 @@
                 <li><a href="Gift-Donate.html">Gift & Donate</a></li>
                 <li><a href="Campaigns.html">Campaigns</a></li>
                 <li><a href="project.html">Projects</a></li>
-                <li><a href="donation.html"donate-button">Donate</a></li>
+                <li><a href="donation.html" class="donateicon-button"><i class="fas fa-donate"></i> Donate</a></li>
+
             </ul>
         </nav>
     </header>
@@ -61,20 +61,6 @@
   
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
     <section class="container-fluid education-section-wrapper">
         <div class="education-section">
           <div class="education-content">
@@ -84,9 +70,10 @@
             <div class="text-center">
               <h2>Education is the Key<br>Your Donation Opens the Lock</h2>
               <p>Your generosity can unlock a future of endless possibilities. Every donation you make helps a child in need access education and build a brighter tomorrow. Together, we can open doors to dreams and opportunities.</p>
-              <button class="donateicon-button">
-                Donate Now <span class="icon"> <img src="images/buttonicon.png" alt=""></span>
-              </button>
+              <button class="donateicon-button" onclick="location.href='donation.html'">
+                Donate Now <span class="icon"><img src="images/buttonicon.png" alt=""></span>
+            </button>
+            
             </div>
             <div class="icon-right">
               <!-- <img src="images/dollar2.png" alt="Right Icon"> -->
@@ -204,15 +191,20 @@
       <p class="card-text">
         Your donation has the power to transform lives. By supporting education and healthcare initiatives, you are directly impacting communities that need it most. Whether big or small, every contribution fuels hope and creates lasting change.
       </p>
-      <button class="donate-button">Donate Today</button>
-    </div>
+      <a href="donation.html">
+        <button class="donate-button">Donate Today</button>
+      </a>
+          </div>
     <!-- Card 2 -->
     <div class="donate-card">
       <h3 class="card-title">Sponsor.</h3>
       <p class="card-text">
         Be a part of something bigger. Your time and skills can make a world of difference, bringing hope and support to those who need it most. When you volunteer with us, you become a vital force in building brighter futures for entire communities.
       </p>
-      <button class="donate-button">Donate Today</button>
+      <a href="donation.html">
+        <button class="donate-button">Donate Today</button>
+      </a>
+      
     </div>
     <!-- Card 3 -->
     <div class="donate-card">
@@ -220,7 +212,10 @@
       <p class="card-text">
         Partner with us to create lasting impact. Together, we can reach more people, amplify our efforts, and build sustainable solutions that change lives. Your collaboration will help bring our mission to new heights, touching lives in ways you can only imagine.
       </p>
-      <button class="donate-button">Donate Today</button>
+      <a href="donation.html">
+        <button class="donate-button">Donate Today</button>
+      </a>
+      
     </div>
   </div>
 </section>
