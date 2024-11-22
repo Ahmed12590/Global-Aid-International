@@ -320,6 +320,21 @@ nav a {
   height: auto; /* Ensures the image scales properly */
 }
 
+.campaig-title {
+  height: 50vh;
+  text-align: center;
+  font-size: 55px;
+  margin: 0;
+  font-family: 'Geomatric', sans-serif;
+  font-weight: 700;
+  background: linear-gradient(45deg, #00308F, #1584DA);
+  -webkit-background-clip: text;
+  color: transparent;
+padding-top: 70px;
+}
+
+
+
 .Campaigns-wrapper {
     background-color: #fff;
     padding: 120px 0;
@@ -1302,6 +1317,14 @@ input[type="checkbox"] {
 .news-text p {
   font-size: 15px;
   line-height: 1.2;
+}
+
+/* campaign page css  */
+
+.campaig-title {
+  font-size: 30px;          
+  height: auto;            
+  padding-top: 40px;       
 }
 }
 
