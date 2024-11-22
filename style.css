@@ -1488,6 +1488,10 @@ input[type="checkbox"] {
     text-align: center; /* Center the text */
     max-width: 100%; /* Ensure text doesn't overflow */
   }
+  .vision-img img {
+    max-width: 80%; /* Reduce image width for mobile view */
+    height: auto;   /* Maintain aspect ratio */
+  }
 }
 
 /* Desktop view (default, no changes needed) */
