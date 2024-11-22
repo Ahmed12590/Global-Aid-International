@@ -1440,6 +1440,17 @@ input[type="checkbox"] {
   padding: 0 10px;  */
 }
 
+.donation-section {
+  display: block;
+  padding: 20px;
+  margin-top: 0px;
+}
+.donation-content h2 {
+  font-size: 38px;
+    color: #00308f;
+    margin-bottom: 15px;
+}
+
 }
 
 
