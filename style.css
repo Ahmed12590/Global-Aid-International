@@ -1,9 +1,25 @@
+@font-face {
+  font-family: "Geometric";
+  src: url("fonts/Geometric 415 Black BT.ttf") format("truetype");
+}
+
+/* Apply Geometric to headings */
+h1, h2, h3, h4, h5, h6 {
+  font-family: "Geometric", sans-serif;
+}
+
+/* Apply Arial to paragraphs */
+p {
+  font-family: "Arial", sans-serif;
+}
+
+/* General reset */
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: "Poppins", sans-serif;
 }
+
 
 
 /* Desktop Header */
@@ -321,16 +337,14 @@ nav a {
 }
 
 .campaig-title {
+  background-color: #F5F5F5;
   height: 40vh;
-  text-align: center;
-  font-size: 40px;
-  margin: 0;
-  /* font-family: 'Geomatric', sans-serif; */
-  font-weight: 700;
-  background: linear-gradient(45deg, #00308F, #1584DA);
-  -webkit-background-clip: text;
-  color: transparent;
-padding-top: 80px;
+  font-size: 50px;
+    font-weight: 600;
+    color: #00308F;
+    font-family: 'Geometria', sans-serif;
+padding-top: 100px;
+text-align: center;
 }
 
 
@@ -929,7 +943,7 @@ input[type="checkbox"] {
   text-align: center;
   padding: 40px 20px;
   background-color: #f5f5f5;
-  padding-top: 100px;
+  /* padding-top: 100px; */
 }
 
 .campaign-grid {
@@ -1239,41 +1253,6 @@ input[type="checkbox"] {
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /* media querry home page css  */
 
 @media (max-width: 768px) {
@@ -1322,12 +1301,28 @@ input[type="checkbox"] {
 /* campaign page css  */
 
 .campaig-title {
-  font-size: 20px;          
+  font-size: 40px;          
   height: auto;            
   padding-top: 40px;       
 }
+.intro-section {
+  display: block;
+  padding: 20px; /* Further reduce padding */
+  margin-top: 30px; /* Further adjust margin */
 }
 
+.intro-content p {
+  font-size: 24px;
+  color: #000000;
+  margin-bottom: 20px;
+  font-family: "arial", sans-serif;
+  text-align: center;
+}
+.intro-content h1 {
+  font-size: 36px; /* Reduce font size for smaller screens */
+  text-align: center; /* Center align for mobile */
+  margin-bottom: 15px; /* Adjust margin */
+}
 
 
 
@@ -1372,7 +1367,6 @@ input[type="checkbox"] {
 
 .supporters-section .section-description {
   font-size: 21px; }
-
 
 
 
