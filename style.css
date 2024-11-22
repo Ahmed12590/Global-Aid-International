@@ -1079,10 +1079,10 @@ input[type="checkbox"] {
 }
 
 .donation-content h2 {
-  font-size: 2rem;
+  font-size: 60px;
   color: #00308f; /* Primary color for the heading */
   margin-bottom: 15px;
-  font-family: "Poppins-SemiBold", sans-serif;
+  /* font-family: "Poppins-SemiBold", sans-serif; */
 }
 
 .donation-content p {
