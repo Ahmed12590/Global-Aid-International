@@ -214,6 +214,82 @@ nav a {
 
 
 /* home page css  */
+.slider-container {
+  position: relative;
+  overflow: hidden;
+  height: 100vh;
+}
+
+.slider {
+  display: flex;
+  transition: transform 1s ease-in-out;
+}
+
+.slide {
+  min-width: 100%;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-size: cover;
+  background-position: center;
+  position: relative;
+}
+
+.content {
+  text-align: left; /* Align text to the left */
+  color: white;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.8);
+  background: none; /* Remove the background */
+  padding: 20px;
+  border-radius: 10px;
+  max-width: 80%;
+}
+
+h2 {
+  font-size: 3rem;
+  margin-bottom: 20px;
+}
+
+p {
+  font-size: 1.2rem;
+  line-height: 1.5;
+}
+
+
+
+/* Slider Arrows */
+.slider-arrow {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  background-color: rgba(0, 0, 0, 0.5);
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+  z-index: 10;
+}
+
+.slider-arrow.prev {
+  left: 10px;
+}
+
+.slider-arrow.next {
+  right: 10px;
+}
+
+.slider-arrow:hover {
+  background-color: rgba(0, 0, 0, 0.7);
+}
+
+
+
+
+
+
+
+
 
 .education-section-wrapper {
   background-color: #f9f9f9;
@@ -1260,6 +1336,32 @@ input[type="checkbox"] {
 
 /* donate page css end  */
 
+/* -------------------faqs----------------- */
+
+.faqs {
+  background-color: #b0d5f0;
+  width: 100%;
+  margin: auto;
+  padding: 7vw 0;
+}
+
+.faq-accordion {
+  width: 80%;
+  margin: auto;
+}
+.faq-accordion h1 {
+  font-size: 2.5rem;
+  margin-bottom: 30px;
+}
+
+
+
+
+
+
+
+
+
 
 /* Footer Styles */
 .footer {
@@ -1274,6 +1376,7 @@ input[type="checkbox"] {
   justify-content: space-between;
   flex-wrap: wrap;
   gap: 20px;
+  justify-content: center;
 }
 
 .footer-column {
